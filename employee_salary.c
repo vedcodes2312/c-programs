@@ -1,3 +1,16 @@
+/*
+
+In an organization, employees are paid on an hourly basis. Clerks are
+paid 100/hr, Teachers are paid 200/hr and the principal is paid 400/hr. If the
+weekly hours exceed 44, then employees should be paid 2 times their regular
+pay for the overtime. Write a C program to compute the weekly salary of the
+employee and also the program should take care that the employee should not
+be paid for hours beyond 50 in a week. Use the best suitable control construct
+to implement the program.            */
+
+
+
+
 #include <stdio.h>
 int main()
 {
