@@ -16,7 +16,7 @@ int main()//body of the code
     for(m=1,sum=1,fact=1;m<n;m++)
     {
         p = pow(x,m);
-        fact*=m; //fact=fact*a 
+        fact*=m; //fact=fact*m
         d=(float)p/fact; //explicit typecasting conversion
         sum+=d; //sum=sum+d
         
