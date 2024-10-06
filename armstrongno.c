@@ -21,7 +21,7 @@ if(originalnum == sum)
 }
 else
 {
-    printf("\n%d is NOT an armstrong number");
+    printf("\n%d is NOT an armstrong number",originalnum);
 }
 
 return 0;
