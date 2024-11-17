@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-int factorial(int n) //recursive function
+int factorial(int n) //definition
 {
     if(n==0)
     {
@@ -21,6 +21,6 @@ int factorial(int n) //recursive function
     }
     else
     {
-        return n * factorial(n-1);
+        return n * factorial(n-1);  //recursive call
     }
 }
