@@ -3,7 +3,8 @@
 #include <stdint.h>
 #include <inttypes.h>
 
-int main() {
+int main()
+{
     // Limits from limits.h
     printf("CHAR_BIT    : %d\n", CHAR_BIT);
     printf("SCHAR_MIN   : %d\n", SCHAR_MIN);
