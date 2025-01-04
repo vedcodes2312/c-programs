@@ -34,6 +34,6 @@ for(int i = 0; i < 5; i++)
     scanf("%f", &empparray[i].salary);
 
 }
-
+free(empparray);
 }
 
